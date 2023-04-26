@@ -2,7 +2,8 @@
 
 # dependencies
 /node_modules
-/shoes-store-frontend/node_modules
+./shoes-store-frontend/node_modules
+./shoes-store-frontend/.env
 /.pnp
 .pnp.js
 
