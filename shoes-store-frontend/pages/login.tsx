@@ -3,7 +3,7 @@ import jwtDecode from "jwt-decode";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useContext, useState } from "react";
-import { toast, Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 import { login } from "../api/request";
 import { Spinner } from "../components/Spinner";
 import { AuthContext } from "../context/AuthContext";
@@ -103,4 +103,3 @@ function Login() {
 }
 
 export default Login;
-Footer;
